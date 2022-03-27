@@ -1,0 +1,87 @@
+p {
+    color: red;
+    text-align: left;
+}
+
+.p0 {
+    color: blue;
+    text-align: right;
+}
+
+.p1 {
+    color: green;
+    text-align: center;
+}
+.p2 {
+    color: orange;
+    text-align: justify;
+} 
+
+.transform0 {
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+}
+
+.transform1 {
+    color: rgb(119, 255, 73);
+    text-transform: lowercase;
+}
+
+.transform2 {
+    color: rgb(0, 255, 200);
+    text-transform: capitalize;
+}
+
+.indent {
+    color: #ff20ef;
+    text-indent: 35px;
+}
+
+.decoration {
+    color: rgb(0, 123, 255);
+    text-decoration: underline;
+}
+
+.decoration0 {
+    color: rgb(255, 0, 128);
+    text-decoration: overline;
+} 
+
+.decoration1 {
+    color: rgb(34, 0, 255);
+    text-decoration: line-through;
+} 
+
+.decoration2 {
+    color: rgb(255, 0, 0);
+    text-decoration: underline overline line-through;
+} 
+
+.space {
+    color: black;
+    letter-spacing: 3px;
+}
+
+.space0 {
+    color: rgb(0, 199, 73);
+    letter-spacing: -3px;
+}
+
+.linha {
+    color: gold;
+    line-height: 3;
+}
+
+.palavra {
+    color: navy;
+    word-spacing: 15px;
+}
+
+.sombra {
+    color: darkslategrey;
+    text-shadow: 1px 1px 5px rgb(255, 0, 0);
+}
+
+a {
+    text-decoration: none;
+}

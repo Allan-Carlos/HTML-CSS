@@ -1,0 +1,51 @@
+body {
+
+}
+
+#titulo {
+    color: blue;
+}
+
+p {
+    color: red;
+}
+
+.texto_verde {
+    color: green;
+}
+
+#cm {
+    background-color: blue;
+    width: 1cm;
+    height: 1cm;
+} 
+
+#mm {
+    background-color: red;
+    width: 1mm;
+    height: 1mm;
+} 
+
+#in {
+    background-color: blue;
+    width: 1in;
+    height: 1in;
+} 
+
+#px {
+    background-color: red;
+    width: 10px;
+    height: 10px;
+} 
+
+#pt {
+    background-color: blue;
+    width: 10pt;
+    height: 10pt;
+}
+
+#pc {
+    background-color: red;
+    width: 1pc;
+    height: 1pc;
+} 

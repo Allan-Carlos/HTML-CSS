@@ -1,0 +1,15 @@
+#titulo {
+    color: dodgerblue;
+}
+
+#principal {
+    color: rgb(0, 100, 200);
+}
+
+.texto {
+    color: rgba(255, 0, 0, 0.8);
+}
+
+.texto_2 {
+    color: #8B008B;
+} 

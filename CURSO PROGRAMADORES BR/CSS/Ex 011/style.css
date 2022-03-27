@@ -1,0 +1,60 @@
+.borda {
+    padding: 5px;
+    margin-bottom: 20px;
+
+    border-width: 5px;
+    border-color: red;
+    border-radius: 5px;
+}
+
+.quadrado {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 5px solid red;
+    border-radius: 50%;
+} 
+
+.dotted { 
+    border-top: black;
+    border-style: dotted;
+    border-radius: 0;
+}
+
+.dashed {
+    border-right: black;
+    border-style: dashed;
+}
+
+.solid {
+    border-bottom: black;
+    border-style: solid;
+}
+
+.solid2 {
+    border-left: black;
+    border-style: solid;
+}
+
+.none {
+    border-style: none;
+}
+
+.hidden {
+    border-style: hidden; 
+} 
+
+.colorida {
+    border-style: solid;
+    border-color: red green blue yellow;
+}
+
+.tamanho {
+    border-width: 5px 2px 10px 15px;
+    border-style: solid;
+    border-color: red;
+}
+
+.abreviacao {
+    border: 5px dashed blue;
+}

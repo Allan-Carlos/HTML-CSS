@@ -1,0 +1,30 @@
+body {
+
+}
+
+#titulo {
+    color: blue;
+}
+
+p {
+    color: red;
+}
+
+.texto_verde {
+    color: green;
+}
+
+#base {
+    height: 10px;
+    background-color: red;
+}
+
+#container {
+    background-color: blue;
+    color: white;
+    margin: 10px;
+}
+
+#conteudo {
+    padding: 10px;
+}

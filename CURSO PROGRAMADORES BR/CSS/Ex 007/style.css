@@ -1,0 +1,33 @@
+body {
+
+}
+
+#titulo {
+    color: dodgerblue;
+    background-color: #EEE8AA;
+}
+
+.paragrafos {
+    color: rgb(255, 255, 255);
+
+    background-image: url('imagens/fundo_2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+
+    /* background: url('imagens/fundo_2.jpg') center/cover no-repeat fixed; */
+
+}
+
+.subDiv {
+    background-color: yellow;
+}
+
+.texto {
+    color: rgba(255, 0, 0, 0.8);
+}
+
+.texto_2 {
+    color: #8B008B;
+} 
