@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&display=swap');
+
+h1 {
+    font-family: 'Indie Flower', cursive;
+}
+
+p {
+    font-family: 'Pacifico', cursive;
+}
+
+/* ========================================================== */
+
+@font-face {
+    font-family: Courage, cursive;
+    src: url(fontes/Courage\ Road.otf);
+}
+
+@font-face {
+    font-family: Franky;
+    src: url(fontes/FrankyOutline.ttf);
+}
+
+.pp0 {
+    font-family: Courage, cursive;
+}
+
+.pp1 {
+    font-family: Franky, cursive;
+}
+
+/* ========================================================== */
+
+.paragrafo {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p0 {
+    font-family: allanCarlos, 'Trebuchet MS', sans-serif;   /* Quando a fonte não existir, o navegador usara a fonte "reserva" no caso Trebuchet MS. */
+}
+
+.p1 {
+    font-style: italic;
+
+    /*
+    font-style: normal;
+    font-style: oblique;
+    */
+} 
+
+.p2 {
+    font-size: 12px;
+} 
+
+.p3 {
+    font-weight: 600;
+
+    /* Valores que você pode adicionar:border:
+        100, 200, 300, 400, 500, 600, 700, 800, 900
+            bold, bolder
+    */
+} 
+
+.p4 {
+    font-family: Times, Georgia, Times, 'Times New Roman', serif;
+    font-variant: small-caps;
+}

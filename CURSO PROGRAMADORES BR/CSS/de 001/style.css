@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap');
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: black;
+}
+
+.card {
+    background-image: url(Imagens/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding: 1px 20px;
+    margin: auto;
+    margin-top: 10%;
+    width: 400px;
+    height: 200px;
+    
+}
+
+.insta {
+    list-style-image: url(Imagens/Insta.png);
+}
+
+.twitter {
+    list-style-image: url(Imagens/Twitter.png);
+}
+
+.youtube {
+    list-style-image: url(Imagens/Youtube.png);
+} 
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
