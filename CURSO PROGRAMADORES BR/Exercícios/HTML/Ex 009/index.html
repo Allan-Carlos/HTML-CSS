@@ -7,14 +7,50 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Formulário HTML</title>
     </head>
-    fdk.sjflkds
 <body>
     
-    <form method="get" action="https://www.youtube.com/watch">
+    <form method="get" action="">
+        <input type="text" name="search_query"> <br><br>
+        <input type="password" name="Senha"> <br><br>
 
-        <input type="text" name="v">
+        <input type="checkbox" name="Curso" value="op1">Curso react Native <br>
+        <input type="checkbox" name="Curso" value="op2">Curso React JS <br>
+        <input type="checkbox" name="Curso" value="op3">Curso Node <br><br>
+
+        <input type="radio" name="Gênero" value="Masc">Masculimo <br>
+        <input type="radio" name="Gênero" value="Fem">Feminino <br>
+        <input type="radio" name="Gênero" value="Outro" checked>Outro <br><br>
+
+        <input type="reset" value="Resetar campos">
+        <input type="submit" value="Enviar!">
+    </form>
+
+<br> 
+<hr>
+<br>
+
+    <form method="get" action="">
+        <select name="Estados">
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="SP" selected>São Paulo</option>
+            <option value="CE">Ceará</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="ES">Espirito Santo</option>
+            <option value="PA">Pará</option>
+
+            <input type="submit" value="Enviar!">
+        </select>
+    </form>
+
+<br> 
+<hr>
+<br>
+
+    <form method="get" action="">
+        <input type="text" name="Assunto"> <br><br>
+        <textarea name="Mensagem"></textarea>
+
         <input type="submit">
-
     </form>
 
 </body>
