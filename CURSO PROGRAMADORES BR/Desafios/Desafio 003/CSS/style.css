@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+
+}
+
+/* Cabeçalho */
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+header {
+    background-color: #48C5CE;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.title {
+    font-size: 26px;
+}
+
+/* Conteúdo principal */
+
+section {
+    padding: 20px;
+    background-image: url('../imagens/fundo.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+
+.form-container {
+    max-width: 250px;
+    background-color: #FFFFFFBB;
+    padding: 20px;
+    float: right;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.mb {
+    margin-bottom: 15px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    color: white;
+    background-color: #48C5CE;
+    font-weight: bold;
+}
+
+select {
+    -moz-appearance: none;
+    -webkit-appearance: none;    /* Foi colocada as 3 propriedades para a compatibilidade com todos os navegadores (elemento novo no CSS) */
+    appearance: none;
+    background-image: url('../imagens/seta.jpg');
+    background-repeat: no-repeat;
+
+    background-position: calc(100% - 10px) center;
+    /*
+    background-position-x: calc(100% - 10px);
+    background-position-y: center;
+    */
+}
+
+/* Footer */
+
+footer {
+    background-color: #202121;
+    padding: 40px;
+    text-align: center;
+}
+
+.picture {
+    width: 160px;
+}
+
+.description {
+    color: white;
+    display: inline-block;
+    max-width: 40%;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.description p, .description h2 {
+    margin-bottom: 20px;
+}
+
+.description h2 {
+    font-size: 24px;
+}
+
+@media screen and (max-width: 738px) {
+    section {
+        padding: 20px;
+        background-image: url('../imagens/fundo.jpg');
+        background-size: cover;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+    }
+
+    .form-container {
+        max-width: 300px;
+        background-color: #FFFFFFBB;
+        padding: 35px;
+        float: right;
+    }
+}
